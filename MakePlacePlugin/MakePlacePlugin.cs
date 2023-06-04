@@ -195,6 +195,8 @@ namespace MakePlacePlugin
 
         public static bool IsDecorMode()
         {
+            return true;
+
             var addon = GameGui.GetAddonByName("HousingGoods", 1);
 
             return addon != IntPtr.Zero;
